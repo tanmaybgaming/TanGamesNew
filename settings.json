@@ -1,7 +1,7 @@
 {
-  "name": "ParkourGod",
+  "name": "TanGames",
   "bot-account": {
-    "username": "ParkourGod",
+    "username": "TanGames",
     "password": "",
     "type": "offline"
   },
@@ -31,13 +31,9 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "/skin set SenpaiSpider",
-        "/mvtp lifesteal",
-        "/lobby",
-        "/warp parkour"
-        "Yooo all"
-        "/gmc"
-        "/gms"
+        "Hlo",
+        "/warp parkour",
+        "Yoo"
       ]
     },
     "chat-log": true,
@@ -49,20 +45,20 @@
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 20,
+      "radius": 10,
       "speed": 3000
     },
     "look-around": {
       "enabled": true,
-      "interval": 500
+      "interval": 1000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 500
+      "interval": 1000
     }
   },
   "modules": {
-    "avoidMobs": false,
+    "avoidMobs": true,
     "combat": true,
     "beds": false,
     "chat": true,
